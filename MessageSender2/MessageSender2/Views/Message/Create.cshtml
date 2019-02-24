@@ -1,0 +1,92 @@
+﻿@model MessageSender2.Models.MessageModel
+@{
+
+    ViewBag.Title = "Create";
+}
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" });
+        <div class="form-group">
+            @Html.LabelFor(model => model.MESSAGECONTENT, htmlAttributes: new { @class = "control-label col-md-2" });
+            <div class="col-md-8">
+                @Html.EditorFor(model => model.MESSAGECONTENT, new { htmlAttributes = new { @class = "form-control" } });
+                @Html.ValidationMessageFor(model => model.MESSAGECONTENT, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" });
+        <div class="form-group">
+            @Html.LabelFor(model => model.MESSAGEDATE, htmlAttributes: new { @class = "control-label col-md-2" });
+            <div class="col-md-8">
+                @Html.EditorFor(model => model.MESSAGEDATE, new { htmlAttributes = new { @class = "form-control" } });
+                @Html.ValidationMessageFor(model => model.MESSAGEDATE, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Kaydet" class="btn btn default" />
+
+            </div>
+
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="button" value="Kaydet ve Gönder" id="kaydetvegonder" class="btn btn default" />
+                @*  *@
+            </div>
+        </div>
+    </div>
+    
+    <script src="~/Scripts/jquery-3.3.1.js"></script>
+    
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $("#kaydetvegonder").click(function () { // buttonun id si yazılır
+                //debugger;
+              
+                var mesajiniz = $("#MESSAGECONTENT").val();  //metinkutusunun id si yazılır.
+               // debugger;
+                $.ajax({
+                    url: '/Message/SendMessage/',
+                    data: { mesajIcerik: mesajiniz},
+                    type: 'POST',
+                    datatype: 'json',
+                    success: function (data) {
+                        $.ajax({
+                            url: '/Message/SendKafka/',
+                            data: { mesajIcerik: mesajiniz},
+                            type: 'POST',
+                            datatype: 'json',
+                            success: function (data) {
+                                alert(data.sonuc);
+                            },
+                            error: function (data)
+                            {
+                               alert("kafkada gönderilirken hata oluştu!!");
+                            }
+                        })
+                    },
+                    error: function (errormessage) {
+                        alert("csshtml de mesaj kaydedilirken hata olustu!!!");
+                    }
+                });
+            });
+        })
+
+    </script>  
+}
+<div>
+    @Html.ActionLink("Geri Dön", "Index")
+</div>

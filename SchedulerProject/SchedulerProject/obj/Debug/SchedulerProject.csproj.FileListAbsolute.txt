@@ -1,0 +1,5 @@
+C:\Users\sevval.tekkol\Documents\Visual Studio 2012\Projects\SchedulerProject\SchedulerProject\bin\Debug\SchedulerProject.dll
+C:\Users\sevval.tekkol\Documents\Visual Studio 2012\Projects\SchedulerProject\SchedulerProject\bin\Debug\SchedulerProject.pdb
+C:\Users\sevval.tekkol\Documents\Visual Studio 2012\Projects\SchedulerProject\SchedulerProject\obj\Debug\SchedulerProject.csprojResolveAssemblyReference.cache
+C:\Users\sevval.tekkol\Documents\Visual Studio 2012\Projects\SchedulerProject\SchedulerProject\obj\Debug\SchedulerProject.dll
+C:\Users\sevval.tekkol\Documents\Visual Studio 2012\Projects\SchedulerProject\SchedulerProject\obj\Debug\SchedulerProject.pdb

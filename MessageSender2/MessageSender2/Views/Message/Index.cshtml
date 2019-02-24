@@ -1,0 +1,23 @@
+﻿@model System.Data.DataTable
+@{
+    ViewBag.Title = "Index";
+}
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<table class="table table-bordered table-striped">
+    <tr>
+        <th>Mesajlar</th>
+        <th>Tarih</th>
+    </tr>
+    @for (int i = 0; i < Model.Rows.Count; i++)
+    {
+        <tr>
+            <td>@Model.Rows[i][1]</td>
+            <td>@Model.Rows[i][2]</td>
+        </tr>
+    }
+</table>
+<a href="@Url.Action("Create","Message")">Mesaj Ekle</a>
+

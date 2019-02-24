@@ -1,0 +1,23 @@
+c:\users\sevval.tekkol\documents\visual studio 2012\Projects\MessageReceiver\MessageReceiver\bin\Debug\MessageReceiver.exe.config
+c:\users\sevval.tekkol\documents\visual studio 2012\Projects\MessageReceiver\MessageReceiver\bin\Debug\MessageReceiver.exe
+c:\users\sevval.tekkol\documents\visual studio 2012\Projects\MessageReceiver\MessageReceiver\bin\Debug\MessageReceiver.pdb
+c:\users\sevval.tekkol\documents\visual studio 2012\Projects\MessageReceiver\MessageReceiver\bin\Debug\kafka-net.dll
+c:\users\sevval.tekkol\documents\visual studio 2012\Projects\MessageReceiver\MessageReceiver\obj\Debug\MessageReceiver.csprojResolveAssemblyReference.cache
+c:\users\sevval.tekkol\documents\visual studio 2012\Projects\MessageReceiver\MessageReceiver\obj\Debug\MessageReceiver.exe
+c:\users\sevval.tekkol\documents\visual studio 2012\Projects\MessageReceiver\MessageReceiver\obj\Debug\MessageReceiver.pdb
+C:\Users\sevval.tekkol\Desktop\en düzgün hali\MessageReceiver\MessageReceiver\bin\Debug\MessageReceiver.exe.config
+C:\Users\sevval.tekkol\Desktop\en düzgün hali\MessageReceiver\MessageReceiver\obj\Debug\MessageReceiver.exe
+C:\Users\sevval.tekkol\Desktop\en düzgün hali\MessageReceiver\MessageReceiver\obj\Debug\MessageReceiver.pdb
+C:\Users\sevval.tekkol\Desktop\nolurnoolmaz\MessageReceiver\MessageReceiver\bin\Debug\MessageReceiver.exe.config
+C:\Users\sevval.tekkol\Desktop\nolurnoolmaz\MessageReceiver\MessageReceiver\obj\Debug\MessageReceiver.exe
+C:\Users\sevval.tekkol\Desktop\nolurnoolmaz\MessageReceiver\MessageReceiver\obj\Debug\MessageReceiver.pdb
+C:\Users\sevval.tekkol\Desktop\nolurnoolmaz\MessageReceiver\MessageReceiver\bin\Debug\MessageReceiver.exe
+C:\Users\sevval.tekkol\Desktop\nolurnoolmaz\MessageReceiver\MessageReceiver\bin\Debug\MessageReceiver.pdb
+C:\Users\sevval.tekkol\Desktop\nolurnoolmaz\MessageReceiver\MessageReceiver\bin\Debug\kafka-net.dll
+C:\Users\sevval.tekkol\Desktop\nolurnoolmaz\MessageReceiver\MessageReceiver\obj\Debug\MessageReceiver.csprojResolveAssemblyReference.cache
+C:\Users\sevval.tekkol\Desktop\ensonkopyaa\MessageReceiver\MessageReceiver\bin\Debug\MessageReceiver.exe.config
+C:\Users\sevval.tekkol\Desktop\ensonkopyaa\MessageReceiver\MessageReceiver\obj\Debug\MessageReceiver.exe
+C:\Users\sevval.tekkol\Desktop\ensonkopyaa\MessageReceiver\MessageReceiver\obj\Debug\MessageReceiver.pdb
+C:\Users\Sevval\Desktop\atölye15\LogoProje\MessageReceiver\MessageReceiver\bin\Debug\MessageReceiver.exe.config
+C:\Users\Sevval\Desktop\atölye15\LogoProje\MessageReceiver\MessageReceiver\obj\Debug\MessageReceiver.exe
+C:\Users\Sevval\Desktop\atölye15\LogoProje\MessageReceiver\MessageReceiver\obj\Debug\MessageReceiver.pdb
